@@ -7,6 +7,6 @@ package com.iknow.arch.feature.home;
  * @Description:
  */
 
-public class Home1 {
+public class Home1 implements IHome {
 
 }
