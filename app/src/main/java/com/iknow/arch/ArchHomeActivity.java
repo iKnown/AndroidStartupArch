@@ -12,10 +12,10 @@ import com.iknow.arch.feature.home.IHome;
  * @Description:
  */
 
-public class HomeActivity extends BaseActivity implements IHome {
+public class ArchHomeActivity extends BaseActivity implements IHome {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.arch_activity_layout);
     }
 }

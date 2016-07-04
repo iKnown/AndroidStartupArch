@@ -1,4 +1,4 @@
-package com.iknow.arch.retorfit2;
+package com.iknow.arch.feature.retorfit2;
 
 /**
  * @Author: J.Chou

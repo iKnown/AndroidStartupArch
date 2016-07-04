@@ -1,4 +1,4 @@
-package com.iknow.arch.retorfit2;
+package com.iknow.arch.feature.retorfit2;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
