@@ -1,4 +1,4 @@
-package com.iknow.arch.retorfit;
+package com.iknow.arch.retorfit2;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -14,6 +14,7 @@ public class Network {
     static final String API_URL="http://api.openweathermap.org";
 
     public static NetworkApi getNetworkApi() {
+
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(API_URL)
                 .addConverterFactory(GsonConverterFactory.create())
